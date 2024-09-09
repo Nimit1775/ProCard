@@ -1,0 +1,19 @@
+---
+// src/pages/index.astro
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<!-- You can replace the card's data with your own here. -->
+<BaseLayout title="Professional Card " description="Professional card.">
+	<Card
+	  name="Nimit Sodhani"
+	  position=" Fullstack Web Developer"
+	  aboutMe={`Hi there! I'm Nimit , a seasoned web developer passionate about crafting clean and dynamic websites. With 2 years of experience, I specialize in Fullstack development using typescript , JavaScript, and frameworks like React and Next.js .\n\nI thrive on creating user-centric designs and optimizing performance for seamless browsing experiences.\n\nLet's collaborate TOGHETER!`}
+	  linkedin="https://www.linkedin.com/in/nimit-sodhani-10487b1a6/"
+	  github="https://github.com/Nimit1775"
+	  cvLink=""
+	  profileImage="/images/dp.webp"
+	/>
+</BaseLayout>
